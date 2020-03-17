@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "SDL2/SDL.h"
+#include "SDL.h"
 //#include "SDL2/SDL_image.h"
 #include "voidCarrés.h"
 
@@ -29,7 +29,7 @@ int main(int argc, char *argv[])    //arguments obligatoire pour compiler en SDL
             SDL_SetRenderDrawColor(pRenderer, 0, 0, 0, SDL_ALPHA_OPAQUE);
             SDL_RenderPresent(pRenderer);   //afficher le Renderer
 
-
+//
 
             SDL_Delay(2000);
 

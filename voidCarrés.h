@@ -1,7 +1,7 @@
 #ifndef VOIDCARRÈS_H_INCLUDED
 #define VOIDCARRÈS_H_INCLUDED
 #include <stdio.h>
-#include "SDL2/SDL.h"
+#include "SDL.h"
 
 int carreVide(SDL_Renderer *pRenderer, SDL_Rect*rect);
 
